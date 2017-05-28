@@ -1,0 +1,218 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+body {
+    background-color: black;
+    }
+
+.grid {
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    min-width: 700px;
+    border-color: white;
+    border-width: 1px;
+    }
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: auto;
+    }
+
+.col-1 {
+    width: 8.33%;
+
+    margin:auto;
+
+
+    }
+
+.col-2 {
+    width: 16.66%;
+
+    margin:auto;
+
+    }
+
+.col-3 {
+    width: 25%;
+    }
+
+.col-4 {
+
+    width: 33.33%;
+    margin: auto;
+    padding: 40px;
+    overflow: hidden;
+
+    }
+
+.col-5 {
+    width: 41.66%;
+    }
+
+.col-6 {
+    width: 50%;
+    }
+
+.col-7 {
+    width: 58.33%;
+    }
+
+.col-8 {
+    width: 66.66%;
+    }
+
+.col-9 {
+    width: 75%;
+    }
+
+.col-10 {
+    width: 83.33%;
+    }
+
+.col-11 {
+    width: 91.66%;
+    }
+
+.col-12 {
+    width: 100%;
+    }
+img {
+    width:100%;
+    height: auto;
+    min-width: 100px;
+    min-height: 100px;
+
+    }
+@media only screen and (max-width: 300px){
+    p{
+        background-color: blue;
+    }
+    }
+.about {
+   -moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+    box-shadow:inset 0px 1px 0px 0px #97c4fe;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
+    background:-moz-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+    background:-webkit-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+    background:-o-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+    background:-ms-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+    background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0',GradientType=0);
+    background-color:#3d94f6;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #337fed;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #1570cd;
+    margin:auto;
+    overflow: auto;
+    }
+header{
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    min-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+
+    }
+
+h1{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    font: normal normal bold /normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: rgb(64, 126, 196);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: 1px 1px 0 rgb(77,162,252) , -1px -1px 0 rgb(77,162,252) , 1px -1px 0 rgb(77,162,252) , -1px 1px 0 rgb(77,162,252) , 4px 4px 8px rgb(44,88,137) , -4px 4px 8px rgb(44,88,137) , 4px -4px 8px rgb(44,88,137) , -4px -4px 8px rgb(44,88,137) ;
+    -webkit-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    }
+
+h2{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal normal bold /normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: rgb(64, 126, 196);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+      -webkit-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    }
+h3{
+    color: rgb(64, 126, 196);
+    font: normal normal bold /normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+
+    #circle{
+        border-radius: 50%;
+
+    }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
